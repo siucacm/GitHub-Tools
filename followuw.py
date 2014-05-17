@@ -24,4 +24,6 @@ for person in people:
         print 'Following: ' + person
         try:
             gh.users.followers.follow(person)
-        except Exception,e: print str(e)
+        except Exception,e:
+            print "An error was encountered. Error: %s" % e
+            break;
