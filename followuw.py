@@ -22,4 +22,6 @@ for person in people:
     person = person.split("/")[-1]
     if (person): # trailing / in url causes blank person
         print 'Following: ' + person
-        gh.users.followers.follow(person)
+        try:
+            gh.users.followers.follow(person)
+        except Exception,e: print str(e)
