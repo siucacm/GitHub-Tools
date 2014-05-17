@@ -8,8 +8,12 @@
 import re
 import urllib2
 from pygithub3 import Github
+import getpass
 
-gh = Github(login='your_username', password='your_password')
+username = raw_input("What is your username? ")
+pw = getpass.getpass()
+
+gh = Github(login=username, password=pw)
 
 text = urllib2.urlopen('https://raw.githubusercontent.com/udubacm/students/master/README.md').read()
 people = re.findall('http[s]?://github.com/(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', text)
