@@ -18,4 +18,4 @@ A few small utility scripts for GitHub.
 * [Todoist Tools](https://github.com/csu/Todoist-Tools)
 * [Tumblr Tools](https://github.com/csu/Tumblr-Tools)
 
-(as of May 18, 2014)
+(last updated May 18, 2014)
