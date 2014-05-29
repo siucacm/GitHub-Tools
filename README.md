@@ -10,6 +10,7 @@ A few small utility scripts for GitHub.
 
 ### Web App Tools
 * [Evernote Tools](https://github.com/csu/Evernote-Tools)
+* [Fitbit Tools](https://github.com/csu/Fitbit-Tools)
 * [Foursquare Tools](https://github.com/csu/Foursquare-Tools)
 * [GitHub Tools](https://github.com/csu/GitHub-Tools)
 * [Instagram Tools](https://github.com/csu/Instagram-Tools)
@@ -18,4 +19,4 @@ A few small utility scripts for GitHub.
 * [Todoist Tools](https://github.com/csu/Todoist-Tools)
 * [Tumblr Tools](https://github.com/csu/Tumblr-Tools)
 
-(last updated May 18, 2014)
+(as of May 26, 2014)
